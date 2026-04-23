@@ -1,0 +1,100 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.page-header {
+    background: linear-gradient(135deg, #C25100, #ff7a18);
+    margin-top: 0;
+    padding: 30px 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 32pt;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenido centrado */
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* Post estilo tarjeta */
+.post {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+/* Títulos */
+.post h2 a,
+.post h2 a:visited {
+    color: #222;
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    color: #C25100;
+}
+
+/* Fecha */
+.date {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Texto */
+.post p {
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Botones (por si agregas luego) */
+button, .btn {
+    background-color: #C25100;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #a94400;
+}
+
+/* Inputs */
+.post-form textarea,
+.post-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Menú superior */
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 20pt;
+    margin-right: 20px;
+}
